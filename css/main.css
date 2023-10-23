@@ -1,3 +1,6 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
 .header { 
     max-width: 1300px;
     background-color: rgb(191, 238, 238);
@@ -6,6 +9,7 @@
 h1 {
     color: blue;
     text-align: center;
+    font-weight: 900;
 }
 li {
     list-style-type:none
