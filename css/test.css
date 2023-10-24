@@ -25,6 +25,7 @@ body {
     padding: 5px 15px;
 }
 
+
  a {
     color: rebeccapurple;
     font-weight: 700;
@@ -46,6 +47,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    gap: 30px;
 }
 
 ul > li {
@@ -90,4 +92,14 @@ section {
     color: white;
     padding: 8px 15px;
     margin-left: 10px;
+}
+
+.results {
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
 }
